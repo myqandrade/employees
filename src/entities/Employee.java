@@ -33,7 +33,7 @@ public class Employee {
     }
 
     public void increaseSalary(double percentage) {
-        this.salary += this.salary * (percentage / 100);
+        this.salary += this.salary * percentage / 100.0;
     }
 
     @Override
