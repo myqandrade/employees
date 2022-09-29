@@ -38,8 +38,6 @@ public class Employee {
 
     @Override
     public String toString(){
-        return this.getId() + ", "
-                + this.getName() + ", "
-                + this.getSalary();
+        return id + ", " + name + ", " + String.format("%.2f", salary);
     }
 }
